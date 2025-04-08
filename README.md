@@ -118,3 +118,121 @@ Spring , Spring Boot, Spring Cloud, Spring Security, JPA, Hibernate
 | **Phase 2**   | Configuration styles, annotations     |
 | **Phase 3**   | AOP, Events, SpEL                     |
 | **Final Touch** | Profiles, External Configs, Testing |
+
+
+# 🚀 Spring Boot – Topics to Learn
+
+---
+
+## ✅ 1. Introduction to Spring Boot
+- What is Spring Boot?
+- Differences between Spring Boot and Spring Framework
+- Advantages of using Spring Boot
+- Auto Configuration and Starter Dependencies
+- Structure of a Spring Boot Project
+
+---
+
+## 🔥 2. Spring Boot Core Features
+- Spring Initializr (https://start.spring.io/)
+- Main class: `@SpringBootApplication`
+  - `@EnableAutoConfiguration`
+  - `@ComponentScan`
+  - `@Configuration`
+- Embedded Servers (Tomcat, Jetty, Undertow)
+- Fat JAR vs WAR
+
+---
+
+## 📁 3. Project Structure & Configuration
+- Default Project Directory Structure
+- `application.properties` vs `application.yml`
+- Profile-specific properties
+- `@Value`, `@ConfigurationProperties`
+- Custom Configuration Files
+
+---
+
+## 📦 4. Building REST APIs
+- `@RestController`, `@RequestMapping`, `@GetMapping`, `@PostMapping`, etc.
+- `@PathVariable` vs `@RequestParam`
+- `@RequestBody` and `@ResponseBody`
+- `@ResponseStatus`, `HttpStatus`
+- Global Exception Handling with `@ControllerAdvice`
+
+---
+
+## 💾 5. Working with Databases
+- Spring Data JPA
+- H2, MySQL, PostgreSQL, etc.
+- `application.properties` for DB config
+- JPA Repositories (`JpaRepository`, `CrudRepository`)
+- JPQL and Native Queries
+- Entity Mapping: `@Entity`, `@Id`, `@GeneratedValue`, etc.
+
+---
+
+## 🧪 6. Spring Boot Testing
+- Unit Testing with JUnit & Mockito
+- `@SpringBootTest`
+- MockMvc for controller testing
+- Testing Data Layer (H2, test profiles)
+
+---
+
+## 🧩 7. Validation & Exception Handling
+- `@Valid` and Bean Validation API (JSR-380)
+- `@NotNull`, `@Size`, `@Min`, `@Max`, etc.
+- Custom error messages
+- Global Exception Handling:
+  - `@ControllerAdvice`, `@ExceptionHandler`
+
+---
+
+## 🧰 8. DevTools & Actuator
+- Spring Boot DevTools for Live Reload
+- Spring Boot Actuator:
+  - Built-in health checks and metrics
+  - Endpoints like `/actuator/health`, `/actuator/metrics`
+  - Custom actuator endpoints
+
+---
+
+## 🛠️ 9. Security (Optional/Intermediate)
+- Spring Security Basics
+- In-memory authentication
+- Securing endpoints
+- JWT (JSON Web Token) integration (advanced)
+
+---
+
+## 🌐 10. Spring Boot with Web Clients
+- RestTemplate (legacy but still common)
+- WebClient (Spring WebFlux)
+- Calling external APIs
+- Error handling with WebClient
+
+---
+
+## ☁️ 11. Spring Boot in the Cloud
+- Spring Boot with Docker
+- Environment-specific configuration
+- Spring Boot with AWS/GCP/Azure (basics)
+- Spring Boot with Spring Cloud (intro)
+
+---
+
+## 📦 12. Build Tools and Packaging
+- Maven or Gradle build configuration
+- Build a JAR/WAR file
+- Run via `java -jar`
+- Spring Boot Maven/Gradle plugins
+
+---
+
+## 🧭 13. Spring Boot Best Practices
+- Layered architecture: Controller → Service → Repository
+- DTOs and Mappers
+- Logging (`SLF4J`, `Logback`)
+- Exception Handling
+- Writing clean RESTful APIs
