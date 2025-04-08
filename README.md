@@ -236,3 +236,104 @@ Spring , Spring Boot, Spring Cloud, Spring Security, JPA, Hibernate
 - Logging (`SLF4J`, `Logback`)
 - Exception Handling
 - Writing clean RESTful APIs
+
+
+
+# 🛢️ JPA & Hibernate – Topics to Learn
+
+---
+
+## 📘 1. Introduction to JPA & Hibernate
+- What is JPA (Java Persistence API)?
+- What is Hibernate?
+- JPA vs Hibernate
+- ORM (Object Relational Mapping) Basics
+- JPA Providers (Hibernate, EclipseLink, etc.)
+
+---
+
+## 🧱 2. Entity Basics
+- `@Entity`, `@Table`
+- `@Id`, `@GeneratedValue`
+- Basic Column Mappings: `@Column`, `@Transient`, `@Temporal`
+- Entity Lifecycle
+
+---
+
+## 🔄 3. Relationships Mapping
+- One-to-One: `@OneToOne`
+- One-to-Many: `@OneToMany`
+- Many-to-One: `@ManyToOne`
+- Many-to-Many: `@ManyToMany`
+- `mappedBy`, `cascade`, `fetch` types
+- Join tables with `@JoinColumn`, `@JoinTable`
+
+---
+
+## 🧮 4. Querying Data
+- JPQL (Java Persistence Query Language)
+- Native SQL Queries
+- `@Query` annotation in Spring Data JPA
+- Named Queries
+- Pagination and Sorting
+
+---
+
+## 📁 5. Spring Data JPA Repositories
+- What is Spring Data JPA?
+- `CrudRepository`, `JpaRepository`, `PagingAndSortingRepository`
+- Custom Queries
+- Derived Query Methods (e.g., `findByName`, `findByAgeGreaterThan`)
+- Projections and DTO Mapping
+
+---
+
+## 🧰 6. Advanced JPA Concepts
+- Lazy vs Eager Fetching
+- Entity Graphs
+- Optimistic & Pessimistic Locking
+- Caching (1st level, 2nd level - Hibernate only)
+- Dirty Checking and Flush Modes
+
+---
+
+## 📦 7. Transactions & EntityManager
+- Understanding Transactions in JPA
+- `@Transactional` usage
+- EntityManager and Persistence Context
+- Lifecycle methods: `persist`, `merge`, `remove`, `detach`, `refresh`
+
+---
+
+## 🛠️ 8. Hibernate Specific Features
+- Hibernate Validator (JSR 380)
+- Hibernate Dialects
+- HQL (Hibernate Query Language)
+- Custom Naming Strategies
+- Second-Level Caching (EhCache, Redis)
+
+---
+
+## 🧪 9. Testing JPA/Hibernate
+- Testing with H2 Database
+- Use of `@DataJpaTest`
+- Transaction Rollbacks in tests
+- TestEntityManager (Spring Boot feature)
+
+---
+
+## 💡 10. Best Practices
+- Avoiding N+1 problem
+- Use DTOs for read operations
+- Proper Indexing and Fetch strategies
+- Use of `@Transactional` wisely
+- Separation of Entity and API Layers
+
+---
+
+## ⚠️ Common Pitfalls
+- LazyInitializationException
+- Infinite recursion in bidirectional relationships (fix with `@JsonManagedReference`/`@JsonBackReference` or `@JsonIgnore`)
+- Incorrect `equals()` and `hashCode()` in Entities
+"""
+
