@@ -450,3 +450,105 @@ Spring , Spring Boot, Spring Cloud, Spring Security, JPA, Hibernate
 - `@RefreshScope` and dynamic reloading
 """
 
+
+
+
+
+# 🌐 Spring MVC – Topics to Learn
+
+---
+
+## 📘 1. Introduction to Spring MVC
+- What is Spring MVC?
+- MVC Architecture Overview
+- How Spring MVC fits in the Spring Framework
+- DispatcherServlet and Request Flow
+
+---
+
+## 🚦 2. DispatcherServlet and Request Lifecycle
+- Role of DispatcherServlet
+- HandlerMapping and Controller
+- ViewResolver and ModelAndView
+- Filters and Interceptors
+- Exception Handling Flow
+
+---
+
+## 📥 3. Controller Layer
+- Creating `@Controller` and `@RestController`
+- Request Mapping: `@RequestMapping`, `@GetMapping`, `@PostMapping`, etc.
+- Path Variables and Request Parameters
+- RequestBody and ResponseBody
+- Returning JSON/XML with Jackson
+
+---
+
+## 📩 4. Request Handling and Data Binding
+- Binding form data to Java objects
+- Using `@ModelAttribute`
+- Using `@Valid` and `@Validated` for validation
+- Custom property editors
+
+---
+
+## 📄 5. Views and Templating Engines
+- InternalResourceViewResolver
+- JSP with JSTL
+- Thymeleaf integration
+- Sending data from Controller to View (`Model`, `ModelMap`, `ModelAndView`)
+
+---
+
+## 💬 6. Form Handling in MVC
+- Forms with JSP/Thymeleaf
+- Form tags and field binding
+- Validation with JSR-303
+- BindingResult and error handling
+
+---
+
+## 🔁 7. Interceptors and Filters
+- `HandlerInterceptor` interface
+- `preHandle()`, `postHandle()`, `afterCompletion()`
+- Servlet Filters for cross-cutting concerns
+- Adding Interceptors via WebMvcConfigurer
+
+---
+
+## 🧪 8. Exception Handling
+- Global exception handling with `@ControllerAdvice`
+- Using `@ExceptionHandler` methods
+- Handling HTTP status codes with `@ResponseStatus`
+
+---
+
+## 🧰 9. File Upload & Download
+- Multipart file upload support
+- `MultipartResolver` configuration
+- File download with `ResponseEntity`
+
+---
+
+## ⚙️ 10. Configuration Approaches
+- XML vs Java-based configuration
+- `@EnableWebMvc` and `WebMvcConfigurer`
+- Component scanning and annotation-based wiring
+
+---
+
+## 🧪 11. Testing Spring MVC
+- Unit testing Controllers with `MockMvc`
+- Integration testing with `@WebMvcTest`
+- Verifying request mappings and responses
+
+---
+
+## 🧠 12. Best Practices
+- Use `@RestController` for REST APIs
+- Consistent exception handling
+- DTOs instead of Entities in Controller layer
+- Proper HTTP status code usage
+- Secure endpoints (later with Spring Security)
+"""
+
